@@ -1,0 +1,108 @@
+.team-job-title {
+    background: #FFF9EA;
+    width: 100%;
+    min-height: 400px;
+    padding-top: 355px;
+    padding-bottom: 67px;
+
+    &__job-title-flex{
+        position: relative;
+        h1{
+            color: #010101;
+            font-family: 'bodoni';
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 109px;
+            // border: 1px solid red;
+            padding-right: 122px;
+           
+        }
+        span{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            font-weight: 500;
+            font-size: 24px;
+            color: #010101;
+        }
+    }
+  
+}
+
+.team-job{
+
+    margin-bottom: 121px;
+    &__team-container{
+        background-image: url('../../img/job-team-bg.png');
+        height: 100%;
+        min-height: 855px;
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
+    &__team-flex{
+        padding-bottom: 81px;
+      
+        display: flex;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+    }
+    &__team-col-4{
+        width: 100%;
+        max-width: 33.333%;
+        padding: 0 26px;
+        &:nth-child(2){
+            border-left: 1px solid #BEBDBD;
+            border-right: 1px solid #BEBDBD;
+        }
+    }
+    &__team-top-logo{
+        margin-top: 39px;
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            @include img-fit;
+        }
+    }
+    &__team-card-body{
+        text-align: center;
+        h1{
+            font-family: 'bodoni';
+            font-weight: 400;
+            font-size: 36px;
+            // line-height: 109px;
+            color: #010101;
+            margin-top: 30px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            margin-top: 43px;
+            margin-bottom: 36px;
+            color: #010101;
+        }
+        a{
+            width: 100%;
+            max-width: 245px;
+            min-height: 46px;
+            color: var(--color-success);
+            border: 1px solid var(--color-success);
+            font-size:28px;
+            font-weight: 900;
+            display: block;
+            padding: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: all 0.3s ease-in-out;
+            border-radius: 5px;
+            &:hover{
+                background: #557025;
+                color: #fff;
+            }
+        }
+    }
+}

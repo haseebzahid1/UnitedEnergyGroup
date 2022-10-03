@@ -1,0 +1,19 @@
+@import "./abstracts/font-family";
+@import "./abstracts/media";
+@import "./abstracts/mixin";
+@import "./abstracts/bootstrap";
+@import "./abstracts/shothandSnippets";
+
+@import "./components/customClass";
+@import "./components/bottom-top-button";
+@import "./components/mainTextComponent";
+
+@import "./layout/navbar";
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./page/team-job";
+@import "./page/testimonials";
+@import "./page/battery";
+
+

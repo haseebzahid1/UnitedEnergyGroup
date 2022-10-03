@@ -1,0 +1,28 @@
+.back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 25px;
+    background: #ED2B23;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #ED2B23;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+    display: inline-block;
+
+  }
+  .show{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .back-to-top:hover{
+    transition: all 0.5s ease-out;
+    background: #bb1b15;
+  }

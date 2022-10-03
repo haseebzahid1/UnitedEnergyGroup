@@ -1,0 +1,43 @@
+.battery{
+    margin-top:156px;
+    &__battery-flex{
+        width: 100%;
+        // max-width:380px;
+        justify-content: space-between;
+        max-width:32.5%;
+        border: 1px solid red;
+    }
+    &__battery-col-6{}
+    &__battery-content{
+        text-align: center;
+        h6{
+            font-weight: 400;
+            font-size: 24px;
+            color: #6D8C39;
+            line-height: 26.36px;
+        }
+        h3{
+            font-family: 'bodoni';
+            font-weight: 400;
+            font-size: 64px;
+            color: #010101;
+            line-height: 70.29px;
+            margin-top: 19px;
+            margin-bottom: 19px;
+        }
+        h3{
+            font-weight: 900;
+            font-size: 24px;
+            color: #010101;
+            line-height: 26.36px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 24px; 
+            color: #010101;
+            line-height: 26.36px;
+            padding-left: 103px;
+            padding-right: 103px;
+        }
+    }
+}

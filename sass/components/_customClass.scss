@@ -1,0 +1,32 @@
+.img-fluid{
+    width: 100%;
+}
+span{
+    display: inline-block;
+}
+
+.try-mt-5{
+  padding-top: 80px;
+}
+
+
+image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // object-fit: cover;
+}
+
+.image-small-fit{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+
+.mtt{
+  padding-top: 70px;
+}
+
+
