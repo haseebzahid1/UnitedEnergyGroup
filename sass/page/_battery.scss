@@ -2,12 +2,15 @@
     margin-top:156px;
     &__battery-flex{
         width: 100%;
+        display: flex;
         // max-width:380px;
         justify-content: space-between;
-        max-width:32.5%;
-        border: 1px solid red;
     }
-    &__battery-col-6{}
+    &__battery-col-6{
+        width: 100%;
+        max-width:32.5%;
+        // border: 1px solid red;
+    }
     &__battery-content{
         text-align: center;
         h6{
@@ -39,5 +42,101 @@
             padding-left: 103px;
             padding-right: 103px;
         }
+    }
+    &__battery-img{
+        width: 100%;
+        max-width: 125px;
+        height: 252px !important;
+        img{
+            // width: 100%;
+            // object-fit: cover;
+            // height: 100% !important;
+            @include img-fit();
+        }
+    }
+  
+    &__battery-card-header{
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        padding: 50px 20px;
+        background: linear-gradient(180deg, #FFD792 0%, #FC9801 100%);
+    }
+   
+    &__battery-right-content{
+        padding-left: 20px;
+        h2{
+            -webkit-text-stroke: 1px rgba(245, 245, 245, 0.44);
+            color: transparent;          
+            font-weight: 900;
+            font-size: 60px;
+            line-height: 65.89px;
+            margin-bottom: 18px;
+        }
+        span{
+            -webkit-text-stroke: 1px rgba(245, 245, 245, 0.44);
+            color: transparent;          
+            font-weight: 900;
+            letter-spacing: 0.085em;
+            display: block;
+            font-size: 24px;
+        }
+
+    }
+    &__battery-card-body{
+        margin-top: 74px;
+        text-align: center;
+        h2{
+            font-family: 'bodoni';
+            font-weight: 400;
+            font-size: 36px; 
+            line-height: 39.54px;
+            color: #6D8C39;
+        }
+        h3{
+            font-family: 'Lato';
+            font-weight: 900;
+            font-size: 20px; 
+            line-height: 21.96px;
+            color: #010101;
+            margin-top: 6px;
+            margin-bottom: 29px;
+        }
+        li{
+            font-weight: 500;
+            font-size: 18px;
+            color: #010101;
+            line-height: 29.77px;
+        }
+    }
+    &__battery-footer-btn{
+        margin-top: 35px;
+        a{
+            font-weight: 900;
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            max-width:245px;
+            padding: 12px;
+            color: #fff;
+            background-color: #6D8C39;
+            transition: all 0.3s ease-in-out;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #F6295A;
+            border-radius: 5px;
+            text-transform: uppercase;
+            &:hover{
+                background: #557025;
+              }
+        }
+    }
+    &__battery-bottom-text{
+        margin-top: 57px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px; 
+        color: #010101;
+        line-height: 19.77px;
     }
 }
