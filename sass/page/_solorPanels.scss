@@ -1,0 +1,93 @@
+.solorPanels{
+    margin-top: 130px;
+    margin-bottom: 111px;
+    &__solorTopContent{
+        width: 100%;
+        max-width: 900px;
+        @include ml-mr-auto();
+        text-align: center;
+        h6{
+            @include recentProject-h6();
+        }
+        h2{
+            @include recentProject-h2();
+        }
+        p{
+            @include recentProject-p();
+            font-weight: 900;
+            margin-bottom: 57px;
+        }
+        a{
+            @include btn-250();
+            @include ml-mr-auto();
+        }
+    }
+    &__solorTopContent-p2{
+        font-weight: 500 !important;
+        font-size: 24px !important;
+        line-height: 26.36px !important;
+    }
+
+    &__solor-flex{
+        margin-top: 89px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__solor-col-4{
+        width: 100%;
+        max-width:32%;
+        min-height: 200px;
+    }
+    &__solor-img{
+        width: 100%;
+        height: 359px;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        img{
+            @include img-fit();
+            border-top-left-radius:20px;
+            border-top-right-radius:20px;
+        }
+    }
+    &__solor-body{
+        padding: 37px 0 38px 36px;
+        background: #FFF9EA;
+        border-radius: 0px 0px 20px 20px;
+        h1{
+            font-size: 36px;
+            font-weight: 400;
+            font-family: 'bodoni';
+            line-height: 39.54px;
+            color: #6D8C39;
+            margin-bottom: 6px;
+        }
+        h2{
+            font-size: 20px;
+            line-height: 21.96px;
+            font-weight: 900;
+            margin-bottom:29px;
+        }
+        ul{
+            li{
+                font-weight: 500;
+                font-size: 18px;
+                // line-height: 19.77px;
+            }
+        }
+    }
+
+    &__solorbottomContent{
+        width: 100%;
+        max-width: 900px;
+        @include ml-mr-auto();
+        text-align: center;
+        p{
+            font-weight: 700;
+            font-size: 15px;  
+            line-height: 19.77px;
+            margin-top: 62px;
+            margin-bottom: 47px;
+        }
+        
+    }
+}

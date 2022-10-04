@@ -118,10 +118,46 @@ searchBox.addEventListener("click", ()=>{
         });
         });
   
-  })
+  });
    
   
-    
+  const faqs =  document.querySelectorAll('.according__faq');
+  const answer = document.querySelectorAll('.according__answer'); 
+
+  faqs.forEach((tab,index)=>{
+    tab.addEventListener('click',function(){
+      faqs.forEach((tab)=>{
+        return tab.classList.remove('active');
+      });
+      tab.classList.add('active');
+
+      answer.forEach((c)=>{
+        return c.classList.remove(active);
+      });
+      answer[index].classList.add('active');
+    })
+  })
+
+     //according start
+    //  const faqs =  document.querySelectorAll('.according__faq');
+    //  const answers = document.querySelectorAll('.according__answer'); 
+   
+    //  faqs.forEach((tab,index)=>{
+    //    tab.addEventListener('click',function(){
+    //      faqs.forEach((tab)=>{
+    //        return tab.classList.remove('active');
+    //      });
+   
+    //      tab.classList.add('active');
+   
+    //      answers.forEach((c)=>{
+    //        return c.classList.remove('active');
+    //      });
+   
+    //      answers[index].classList.add('active')
+    //    });
+    //  })
+   
      
      
   

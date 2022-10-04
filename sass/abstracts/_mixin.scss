@@ -113,6 +113,26 @@ $pagination-btn: #f4e4b3;
 
 }
 
+@mixin recentProject-h6 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26.36px;
+  color:#6D8C39;
+}
+
+@mixin recentProject-h2 {
+  font-size: 64px;
+  font-weight: 400;
+  font-family: 'bodoni';
+  line-height: 70.29px;
+  margin-top: 19px;
+  margin-bottom: 9px;
+}
+@mixin recentProject-p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26.36px;
+}
 
 // &:hover{
 //   background: #557025;
