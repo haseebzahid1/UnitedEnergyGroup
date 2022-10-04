@@ -94,6 +94,24 @@ $pagination-btn: #f4e4b3;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@mixin btn-250 {
+  
+    width: 100%;
+    max-width: 254px;
+    text-align: center;
+    padding:15px;
+    color: #ffff;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 4px;
+    display: block;
+    background-color: #6D8C39;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        background: #557025;
+      }
+
+}
 
 
 // &:hover{
